@@ -1,20 +1,20 @@
 {
-    "username": process.env.IG_USER,
-    "password": process.env.IG_PASS,
-    "hashtags": ["love", "fashion", "happy", "cute", "followme", "selfie", ...],
+    "username": "YOUR INSTAGRAM USERNAME",
+    "password": "YOUR INSTAGRAM PASSWORD",
+    "hashtags": ["love", "fashion", "happy", "cute", "followme", "selfie"],
     "settings": {
       "run_every_x_hours": 1,
       "like_ratio": 0.75,
       "follow_ratio": 0.25,
       "do_unfollows": true,
       "unfollow_after_days": 2,
-      "headless": true
+      "headless": false
     },
     "selectors": {
       "home_to_login_button": ".izU2O a",
       "username_field": "input[type=\"text\"]",
       "password_field": "input[type=\"password\"]",
-      "login_button": "._1OSdk button",
+      "login_button": ".L3NKy",
       "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
       "post_username": "div.e1e1d > a",
       "post_follow_link": "span.oW_lN._1OSdk > button",
